@@ -2,42 +2,12 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  margin-top: 10vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.nav-links {
+.nav-links,
+.footer-links {
   margin: 0 auto;
 }
 
@@ -45,7 +15,6 @@
   --animate-duration: 1s;
   position: relative;
   width: 100%;
-  /* border: 1px solid black; */
 }
 
 .layer {
@@ -59,24 +28,81 @@
 
 .welcome-text {
   position: absolute;
+  background-color: white;
   top: 65%;
   left: 0;
-  background-color: white;
-  width: 50%;
-  height: 30%;
   padding: 10px;
 }
 
-.footer {
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   position: absolute;
   bottom: 0;
-  left: 37%;
-  padding: 0;
-  background-color: white;
+  width: 100%;
 }
+
 
 #git,
 #email {
   display: inline-block;
   padding-left: 10px;
 }
+
+@media (max-width: 800px) {
+
+  .animate__animated.animate__fadeIn {
+    --animate-duration: 1s;
+    width: 100%;
+  }
+  
+  .layer {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .welcome-text {
+    margin-top: 50px;
+    background-color: white;
+  }
+
+  #intro {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+
+  #brand {
+    font-size: 1rem;
+    padding: 5px;
+    margin: 0 auto;
+  }
+
+  /* .footer-nav {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  } */
+
+  .footer-links {
+    font-size: .8rem;
+  }
+  
+
+ }
