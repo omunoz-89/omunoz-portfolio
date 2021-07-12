@@ -7,10 +7,10 @@ import ss from '../media/ss.png'
 
 const Projects = () => {
     return (
-        <div className="projects columns is-multiline">
+        <div className="projects columns">
 
 
-    <div className='column is-4'>
+    <div className='column is-one-quater'>
     <div class="card">
   <div class="card-image">
     <figure class="image is-4by3">
@@ -31,7 +31,7 @@ const Projects = () => {
   </div>
 </div>
     </div>
-    <div className='column is-4'>
+    <div className='column is-one-quater'>
     <div class="card">
   <div class="card-image">
     <figure class="image is-4by3">
@@ -52,7 +52,7 @@ const Projects = () => {
   </div>
 </div>
     </div>
-    <div className='column is-4'>
+    <div className='column is-one-quater'>
     <div class="card">
   <div class="card-image">
     <figure class="image is-4by3">
