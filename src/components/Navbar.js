@@ -6,13 +6,17 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="top-nav navbar is-transparent is-fixed-top">
-      <NavLink className="nav-links navbar-item" exact to="/">About</NavLink>
-      <NavLink className="nav-links navbar-item"  to="/skills">Skills</NavLink>
-      <NavLink className="nav-links navbar-item"  to="/projects">Projects</NavLink>
-  </div>
+      <NavLink className="nav-links navbar-item" exact to="/">
+        About
+      </NavLink>
+      <NavLink className="nav-links navbar-item" to="/skills">
+        Skills
+      </NavLink>
+      <NavLink className="nav-links navbar-item" to="/projects">
+        Projects
+      </NavLink>
+    </div>
   );
 };
 
 export default Navbar;
-
-

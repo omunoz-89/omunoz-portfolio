@@ -10,19 +10,19 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <BrowserRouter>
+      <div className="App">
+        <Navbar />
 
-    <div className="App">
-      <Navbar />
-
-      <div className="container">
-        <Switch>
-          <Route path="/skills" component={Skills} />
-          <Route path="/projects" component={Projects} />
-          <Route exact path='/' component={About}/>
-        </Switch>
+        <div className="container">
+          <Switch>
+            <Route path="/skills" component={Skills} />
+            <Route path="/projects" component={Projects} />
+            <Route exact path="/" component={About} />
+            <Route path="/*" component={About} />
+          </Switch>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
     </BrowserRouter>
   );
 };

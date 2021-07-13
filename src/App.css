@@ -50,6 +50,10 @@
   position: absolute;
   bottom: 0;
   width: 100%;
+  border-top: 2px solid transparent;
+  border-image: linear-gradient(to right, rgba(0, 0, 0, 0.034), rgba(0, 0, 0, 0.164) , rgba(0, 0, 0, 0.034));
+  border-image-slice: 1;
+
 
 }
 
@@ -62,7 +66,6 @@
 
 .projects {
   margin: 5vh auto;
-  /* padding-bottom: 10vh; */
 }
 
 .card{
@@ -83,6 +86,14 @@
   font-size: 3rem;
 }
 
+.skill-title {
+  padding-top: 50px;
+}
+
+.more {
+  
+  padding: 10vh;
+}
 
 
 
@@ -153,7 +164,7 @@
   }
 
   .welcome-text {
-    margin-top: 50px;
+    margin-top: 15vh;
     background-color: white;
   }
 
@@ -188,5 +199,12 @@
   #large-img {
     display: none;
   }
+
+  .column.is-3,
+  .column.is-2 {
+    width: 50%;
+    margin: 0 auto;
+  }
+
 
  }
