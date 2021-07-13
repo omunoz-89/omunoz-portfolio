@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="top-nav navbar is-transparent is-fixed-top">
       <NavLink className="nav-links navbar-item" exact to="/">
-        About
+        Home
       </NavLink>
       <NavLink className="nav-links navbar-item" to="/skills">
         Skills

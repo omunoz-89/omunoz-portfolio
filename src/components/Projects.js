@@ -4,6 +4,10 @@ import React from "react";
 import liveSus from "../media/live-sustainably.png";
 import meme from "../media/meme.png";
 import ss from "../media/ss.png";
+import ssg from "../media/ss.gif";
+import ls from "../media/ls.gif";
+import mb from "../media/mb.gif";
+
 
 const Projects = () => {
   return (
@@ -13,7 +17,7 @@ const Projects = () => {
           <div className="card-image">
             <figure id="large-img" className="image is-3by5">
               <img
-                src="https://res.cloudinary.com/sei412-om/image/upload/v1626132182/Screen_Shot_2021-07-12_at_7.22.52_PM_ocqkmo.png"
+                src={ssg}
                 alt="Placeholder image"
               />
             </figure>
@@ -55,7 +59,7 @@ const Projects = () => {
           <div className="card-image">
             <figure id="large-img" className="image is-3by5">
               <img
-                src="https://res.cloudinary.com/sei412-om/image/upload/v1626187303/Screen_Shot_2021-07-13_at_10.38.19_AM_epxmsp.png"
+                src={mb}
                 alt="Placeholder image"
               />
             </figure>
@@ -97,7 +101,7 @@ const Projects = () => {
           <div className="card-image">
             <figure id="large-img" className="image is-3by5">
               <img
-                src="https://res.cloudinary.com/sei412-om/image/upload/v1626132793/Screen_Shot_2021-07-12_at_7.32.54_PM_yg81jk.png"
+                src={ls}
                 alt="Placeholder image"
               />
             </figure>
