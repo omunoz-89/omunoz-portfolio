@@ -7,7 +7,7 @@ import ss from "../media/ss.png";
 
 const Projects = () => {
   return (
-    <div className="projects columns is-multiline is-mobile">
+    <div className="projects columns is-multiline">
       <div className="column is-one-quater">
         <div className="card">
           <div className="card-image">
