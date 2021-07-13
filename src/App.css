@@ -50,6 +50,7 @@
   position: absolute;
   bottom: 0;
   width: 100%;
+
 }
 
 
@@ -76,6 +77,10 @@
 
 #mobileResume {
   display:none;
+}
+
+.skill {
+  font-size: 3rem;
 }
 
 
