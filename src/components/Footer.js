@@ -47,7 +47,7 @@ const Footer = () => {
             View
           </a>
           <a
-            href="https://res.cloudinary.com/sei412-om/raw/upload/v1626106834/Omar_Munoz_Resume_boxwug.docx"
+            href="https://res.cloudinary.com/sei412-om/raw/upload/v1626202154/Omar_Munoz_Resume_qng0hq.docx"
             className="footer-links navbar-item"
           >
             Download
