@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
+import Skills from "./components/Skills";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
@@ -16,9 +16,9 @@ const App = () => {
 
       <div className="container">
         <Switch>
-          <Route path="/about" component={About} />
+          <Route path="/skills" component={Skills} />
           <Route path="/projects" component={Projects} />
-          <Route exact path='/' component={Home}/>
+          <Route exact path='/' component={About}/>
         </Switch>
       </div>
       <Footer />
