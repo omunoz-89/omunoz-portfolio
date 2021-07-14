@@ -3,7 +3,7 @@
 }
 
 .container {
-  margin-top: 7.5vh;
+  margin-top: 5vh;
 }
 
 .nav-links,
@@ -17,9 +17,6 @@
   width: 100%;
 }
 
-.home-page {
-  width: 95%;
-}
 
 .layer {
   position: absolute;
@@ -69,7 +66,7 @@
 }
 
 .projects {
-  margin: 0 auto;
+  margin: 7vh auto;
   width: 95%;
 }
 
@@ -102,10 +99,7 @@
 
 
 
-
-
-
-@media (min-width: 800px) {
+@media (min-width: 1210px) {
   .card:hover{
     box-shadow: 0 0.5em 4em -0.125em rgb(10 20 50 / 50%), 0 0 0 1px rgb(10 10 50 / 2%);
   }
@@ -150,6 +144,24 @@
 }
 
 
+
+@media (max-width: 1210px) {
+
+  #brand {
+    font-size: 1rem;
+    padding: 5px;
+    margin: 0 auto;
+  }
+
+  .welcome-text {
+    position: absolute;
+    background-color: white;
+    top: 35%;
+    left: 0;
+    padding: 10px;
+  }
+  
+}
 
 
 
@@ -200,6 +212,7 @@
   .projects {
     margin: 0 auto;
     padding-bottom: 7vh;
+    width: 100%;
   }
 
   #large-img {
