@@ -3,7 +3,7 @@ import me from "../media/me.png";
 
 const Home = () => {
   return (
-    <div className="columns">
+    <div className="home-page columns">
       <div className="animate__animated animate__fadeIn column is-full is-mobile">
         <img src={me} alt="me" className="animate__animated animate__fadeIn" />
         <div className="layer column is-full">

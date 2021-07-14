@@ -17,6 +17,10 @@
   width: 100%;
 }
 
+.home-page {
+  width: 95%;
+}
+
 .layer {
   position: absolute;
   top: 0;
@@ -65,7 +69,8 @@
 }
 
 .projects {
-  margin: 5vh auto;
+  margin: 0 auto;
+  width: 95%;
 }
 
 .card{
@@ -105,9 +110,9 @@
     box-shadow: 0 0.5em 4em -0.125em rgb(10 20 50 / 50%), 0 0 0 1px rgb(10 10 50 / 2%);
   }
 
-  /* .column.is-one-quater:hover {
+  /* .column.is-one-quater{
       flex: none;
-      width: 38%;
+      width: 32%;
   } */
 
   .card:hover {
@@ -140,6 +145,7 @@
   #small-img {
     display:none;
   }
+  
 
 }
 
