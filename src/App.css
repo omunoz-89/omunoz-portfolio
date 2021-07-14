@@ -99,7 +99,7 @@
 
 
 
-@media (min-width: 1210px) {
+@media (min-width: 800px) {
   .card:hover{
     box-shadow: 0 0.5em 4em -0.125em rgb(10 20 50 / 50%), 0 0 0 1px rgb(10 10 50 / 2%);
   }
