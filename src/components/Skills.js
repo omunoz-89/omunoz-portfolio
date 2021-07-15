@@ -4,6 +4,7 @@ const Skills = () => {
   return (
     <div className="content">
       <h3 className="skill-title title">Programming Languages</h3>
+      <p className="subtitle is-6">& Comfort Levels</p>
       <hr />
 
       <div className="columns is-multiline">
@@ -15,7 +16,7 @@ const Skills = () => {
             value="10"
             max="10"
           ></progress>
-          <p className="subtitle is-6">10/10</p>
+          <p className="subtitle is-7">10/10</p>
         </div>
 
         <div className="column is-3">
@@ -26,7 +27,7 @@ const Skills = () => {
             value="8.5"
             max="10"
           ></progress>
-          <p className="subtitle is-6">8.5/10</p>
+          <p className="subtitle is-7">8.5/10</p>
         </div>
 
         <div className="column is-3">
@@ -37,7 +38,7 @@ const Skills = () => {
             value="9"
             max="10"
           ></progress>
-          <p className="subtitle is-6">9/10</p>
+          <p className="subtitle is-7">9/10</p>
         </div>
 
         <div className="column is-3">
@@ -48,11 +49,12 @@ const Skills = () => {
             value="6.5"
             max="10"
           ></progress>
-          <p className="subtitle is-6">6.5/10</p>
+          <p className="subtitle is-7">6.5/10</p>
         </div>
       </div>
 
       <h3 className="skill-title title">Libraries & Frameworks</h3>
+      <p className="subtitle is-6">& Comfort Levels</p>
       <hr />
       <div className="columns is-multiline">
         <div className="column is-2 is-offset-1">
@@ -63,7 +65,7 @@ const Skills = () => {
             value="8"
             max="10"
           ></progress>
-          <p className="subtitle is-6">8/10</p>
+          <p className="subtitle is-7">8/10</p>
         </div>
 
         <div className="column is-2">
@@ -74,7 +76,7 @@ const Skills = () => {
             value="8"
             max="10"
           ></progress>
-          <p className="subtitle is-6">8/10</p>
+          <p className="subtitle is-7">8/10</p>
         </div>
 
         <div className="column is-2">
@@ -85,7 +87,7 @@ const Skills = () => {
             value="8"
             max="10"
           ></progress>
-          <p className="subtitle is-6">8/10</p>
+          <p className="subtitle is-7">8/10</p>
         </div>
 
         <div className="column is-2">
@@ -96,7 +98,7 @@ const Skills = () => {
             value="9"
             max="10"
           ></progress>
-          <p className="subtitle is-6">9/10</p>
+          <p className="subtitle is-7">9/10</p>
         </div>
 
         <div className="column is-2">
@@ -107,11 +109,12 @@ const Skills = () => {
             value="9"
             max="10"
           ></progress>
-          <p className="subtitle is-6">9/10</p>
+          <p className="subtitle is-7">9/10</p>
         </div>
       </div>
 
       <h3 className="skill-title title">Databases</h3>
+      <p className="subtitle is-6">& Comfort Levels</p>
       <hr />
       <div className="columns is-multiline">
         <div className="column is-3">
@@ -122,7 +125,7 @@ const Skills = () => {
             value="8.5"
             max="10"
           ></progress>
-          <p className="subtitle is-6">8.5/10</p>
+          <p className="subtitle is-7">8.5/10</p>
         </div>
 
         <div className="column is-3">
@@ -133,7 +136,7 @@ const Skills = () => {
             value="8.5"
             max="10"
           ></progress>
-          <p className="subtitle is-6">8.5/10</p>
+          <p className="subtitle is-7">8.5/10</p>
         </div>
 
         <div className="column is-3">
@@ -144,7 +147,7 @@ const Skills = () => {
             value="8"
             max="10"
           ></progress>
-          <p className="subtitle is-6">8/10</p>
+          <p className="subtitle is-7">8/10</p>
         </div>
 
         <div className="column is-3">
@@ -155,7 +158,7 @@ const Skills = () => {
             value="7"
             max="10"
           ></progress>
-          <p className="subtitle is-6">7/10</p>
+          <p className="subtitle is-7">7/10</p>
         </div>
       </div>
       <div className="columns">
