@@ -4,161 +4,80 @@ const Skills = () => {
   return (
     <div className="content">
       <h3 className="skill-title title">Programming Languages</h3>
-      <p className="subtitle is-6">& Comfort Levels</p>
       <hr />
 
       <div className="columns is-multiline">
         <div className="column is-3">
           <i className="skill devicon-html5-plain column is-12" />
           <p>HTML</p>
-          <progress
-            className="progress is-info is-small title"
-            value="10"
-            max="10"
-          ></progress>
-          <p className="subtitle is-7">10/10</p>
         </div>
 
         <div className="column is-3">
           <i className="skill devicon-javascript-plain column is-12"></i>
           <p>JavaScript</p>
-          <progress
-            className="progress is-info is-small title"
-            value="8.5"
-            max="10"
-          ></progress>
-          <p className="subtitle is-7">8.5/10</p>
         </div>
 
         <div className="column is-3">
           <i className="skill devicon-css3-plain column is-12"></i>
           <p>CSS</p>
-          <progress
-            className="progress is-info is-small title"
-            value="9"
-            max="10"
-          ></progress>
-          <p className="subtitle is-7">9/10</p>
         </div>
 
         <div className="column is-3">
           <i className="skill devicon-python-plain column is-12"></i>
           <p>Python</p>
-          <progress
-            className="progress is-info is-small title"
-            value="6.5"
-            max="10"
-          ></progress>
-          <p className="subtitle is-7">6.5/10</p>
         </div>
       </div>
 
       <h3 className="skill-title title">Libraries & Frameworks</h3>
-      <p className="subtitle is-6">& Comfort Levels</p>
       <hr />
       <div className="columns is-multiline">
         <div className="column is-2 is-offset-1">
           <i className="skill devicon-nodejs-plain column is-12"></i>
           <p>Node</p>
-          <progress
-            className="progress is-info is-small title"
-            value="8"
-            max="10"
-          ></progress>
-          <p className="subtitle is-7">8/10</p>
         </div>
 
         <div className="column is-2">
           <i className="skill devicon-express-original column is-12"></i>
           <p>Express</p>
-          <progress
-            className="progress is-info is-small title"
-            value="8"
-            max="10"
-          ></progress>
-          <p className="subtitle is-7">8/10</p>
         </div>
 
         <div className="column is-2">
           <i className="skill devicon-react-original column is-12"></i>
           <p>React</p>
-          <progress
-            className="progress is-info is-small title"
-            value="8"
-            max="10"
-          ></progress>
-          <p className="subtitle is-7">8/10</p>
         </div>
 
         <div className="column is-2">
           <i className="skill devicon-bootstrap-plain column is-12"></i>
           <p>Bootstrap</p>
-          <progress
-            className="progress is-info is-small title"
-            value="9"
-            max="10"
-          ></progress>
-          <p className="subtitle is-7">9/10</p>
         </div>
 
         <div className="column is-2">
           <i className="skill devicon-bulma-plain column is-12"></i>
           <p>Bulma</p>
-          <progress
-            className="progress is-info is-small title"
-            value="9"
-            max="10"
-          ></progress>
-          <p className="subtitle is-7">9/10</p>
         </div>
       </div>
 
       <h3 className="skill-title title">Databases</h3>
-      <p className="subtitle is-6">& Comfort Levels</p>
       <hr />
       <div className="columns is-multiline">
         <div className="column is-3">
           <i className="skill devicon-postgresql-plain column is-12"></i>
           <p>PostgreSQL</p>
-          <progress
-            className="progress is-info is-small title"
-            value="8.5"
-            max="10"
-          ></progress>
-          <p className="subtitle is-7">8.5/10</p>
         </div>
 
         <div className="column is-3">
           <i className="skill devicon-sequelize-plain column is-12"></i>
           <p>Sequelize</p>
-          <progress
-            className="progress is-info is-small title"
-            value="8.5"
-            max="10"
-          ></progress>
-          <p className="subtitle is-7">8.5/10</p>
         </div>
 
         <div className="column is-3">
           <i className="skill devicon-mongodb-plain column is-12"></i>
           <p>MongoDB</p>
-          <progress
-            className="progress is-info is-small title"
-            value="8"
-            max="10"
-          ></progress>
-          <p className="subtitle is-7">8/10</p>
         </div>
 
         <div className="column is-3">
           <i className="skill devicon-django-plain column is-12"></i>
           <p>Django</p>
-          <progress
-            className="progress is-info is-small title"
-            value="7"
-            max="10"
-          ></progress>
-          <p className="subtitle is-7">7/10</p>
         </div>
       </div>
       <div className="columns">
